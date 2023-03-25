@@ -180,4 +180,8 @@ a {
     #imgdisappear {
         display: none;
     }
+    
+    .flexcol {
+        flex-direction: column-reverse;
+    }
 }
