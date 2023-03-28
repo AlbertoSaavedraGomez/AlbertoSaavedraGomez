@@ -91,14 +91,10 @@ a {
   margin-bottom: 1rem !important;
 }
 
-.nopadding {
-  padding: 5rem;
-}
-
-.image-events {
-  padding-left: 5rem !important;
-  background-color: #ff4141;
-  margin-left: 5rem !important;
+ol.breadcrumb.bueno {
+  display: flex !important;
+  flex-direction: column !important;
+  background-color: #ff4141 !important;
 }
 
 @media (max-width: 800px) {
@@ -174,6 +170,10 @@ a {
   }
   #nopadding {
     padding: 0px 0px !important;
+  }
+  ol.breadcrumb.bueno {
+    display: flex !important;
+    flex-direction: column !important;
   }
 }
 
