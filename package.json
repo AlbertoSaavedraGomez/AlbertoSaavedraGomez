@@ -9,5 +9,8 @@
     "watch-sass": "nodemon -e scss -x  \"npm run build-sass\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }

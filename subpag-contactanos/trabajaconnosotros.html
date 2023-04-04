@@ -12,50 +12,53 @@
 		<!-- logo nav -->
 		<link rel="shortcut icon" href="../img/logoicono.ico">
 		<!-- style.css link -->
-        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../css/style.css">
 		<!-- icons -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="../styles/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     </head>
     <body>
-		<div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="box-shadow: 5px 5px 5px #e9e9e9;">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">
-                    <img src="../img/logoicono.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
-                  </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
-                        <a class="nav-link" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
-                        <a class="nav-link" href="../pag/menu.html">Menu</a>
-                      </li>
-                      <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
-                        <a class="nav-link" href="../pag/nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
-                        <a class="nav-link" href="../pag/eventos.html">Eventos</a>
-                      </li>
-                      <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important"> 
-                        <a class="nav-link active text-bg-danger" aria-current="page" href="#">Contactanos</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-            </nav>
+		<div class="navigatorbar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logoblanco.png" alt="Logo" width="100" height="80" class="d-inline-block align-text-top">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
+                            <a class="nav-link" href="../pag/menu.html">Menu</a>
+                          </li>
+                          <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
+                            <a class="nav-link" href="../pag/nosotros.html">Nosotros</a>
+                          </li>
+                          <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important">
+                            <a class="nav-link" href="../pag/eventos.html">Eventos</a>
+                          </li>
+                          <li class="nav-item" style="margin-left: 1rem!important; font-size: 1.25rem!important"> 
+                            <a class="nav-link active" aria-current="page" href="#">Contactanos</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
         </div>
 
 		<section class="container mt-2">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12 col-lg-10 mx-auto mb-lg-0 mb-2">
-                        <div class="col-md-12 col-lg-12 mt-3">
+                    <div class="col-md-12 col-lg-10 mb-2">
+                        <div class="col-md-12 col-lg-12 mt-3 d-flex">
+                            <span class="material-symbols-outlined">
+                                arrow_back_ios_new
+                                </span>
                             <h4 class="fw-bold" style="font-size: 2.5rem!important;">CONTACTANOS</h4>
                         </div>
                     </div>
@@ -86,17 +89,22 @@
 						</div>
 					</div>
 					<hr>
+				</div>
+			</div>
+		</section>
+
+        <section class="container">
                 	<div class="row">
 						<form class="px-4 py-3 col-md-7" action="">
 							<div class="mb-3">
-								<label for="validationCustomUsername" class="form-label"></label>
-								<input type="name" class="form-control" style="box-shadow: 5px 5px 5px #e9e9e9" id="validationCustomUsername" placeholder="Nombre">
+								<label for="exampleFormControlInput1" class="form-label"></label>
+								<input type="name" class="form-control" style="box-shadow: 5px 5px 5px #e9e9e9" id="exampleFormControlInput1" placeholder="Nombre">
 							</div>
 							<div class="mb-3">
 								<label for="exampleDropdownFormEmail" class="form-label"></label>
 								<input type="email" class="form-control" style="box-shadow: 5px 5px 5px #e9e9e9" id="exampleDropdownFormEmail" placeholder="Email">
 							</div>
-							<div class="mb-3 d-flex" style="padding-top: 1.5rem!important">
+                            <div class="mb-3 d-flex" style="padding-top: 1.5rem!important">
 								<label for="exampleDropdownFormBirthday" class="form-label">Fecha de nacimiento</label>
 								<input type="password" class="form-control" style="box-shadow: 5px 5px 5px #e9e9e9" id="exampleDropdownFormBirthday" placeholder="mm/dd/yyyy">
 							</div>
@@ -124,11 +132,11 @@
 								<label class="form-check-label" for="exampleCheck1">He leido y acepto los Terminos y Condiciones y Politicas de privacidad</label>
 							</div>
 							<div class="mb-3">
-								<button type="submit" class="btn text-white" style="background-color: #12a54f!important">Enviar</button>
+								<button type="submit" class="btn text-white" style="background-color: #2642ce; border-radius: 15rem;">Enviar</button>
 							</div>
 						</form>
 						<div class="col-md-5 pt-5">
-							<img src="../img/wireframe.jpg" class="img-fluid w-100" style="height: 20rem" id="imgdisappear" alt="">
+							<img src="../img/customer.jpg" class="img-fluid w-100" style="height: 20rem" id="imgdisappear" alt="">
 						</div>
 					</div>
 				</div>
@@ -157,15 +165,16 @@
                                             <div>
                                                 <h5 class="fw-bold">SEDE</h5>
                                                 <ul class="list-unstyled">
-                                                    <li><p>Lorem ipsum dolor sit amet.</p></li>
+                                                    <li><p>Sector Bajo Potrerillo S/N.<br> San Ignacio
+													</p></li>
                                                 </ul>                                                
                                             </div>
                                             <div>
                                                 <h5 class="fw-bold">CONTACTO</h5>
                                                 <ul class="list-unstyled">
-                                                    <li><p class="my-0">aaaaaaaaaaaaaaaaa@gmail.com</p></li>
-                                                    <li><p class="my-0">aaaaaaaaaaaaaaaaa@gmail.com</p></li>
-                                                    <li><p>+51 999 999 999</p></li>
+                                                    <li><p class="my-0">trest3kos@gmail.com</p></li>
+                                                    <li><p class="my-0">roberts.r2677@gmail.com</p></li>
+                                                    <li><p>+51-966-853-334</p></li>
                                                 </ul>                                                
                                             </div>
                                         </div>
@@ -196,8 +205,7 @@
                 </div>
             </footer>
         </section>
-
-        <!-- Bootstrap -->
-		<script src="../js/bootstrap.bundle.min.js"></script>
+		    <!-- Bootstrap -->
+			<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>
