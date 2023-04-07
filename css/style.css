@@ -11149,6 +11149,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
 h3, .h3 {
   margin-bottom: 0 !important;
 }
@@ -11193,7 +11197,7 @@ h4, .h4 {
 }
 
 .botonrojo1 {
-  padding: 1rem 1.5rem !important;
+  padding: 1rem 1.5rem;
   border-radius: 15rem !important;
   font-size: 1.4rem !important;
   background-color: #2642ce;
@@ -11287,7 +11291,7 @@ a {
 
 .menubox {
   width: 18rem;
-  height: 32.5rem;
+  height: 29rem;
   background-color: rgb(255, 255, 255);
 }
 
