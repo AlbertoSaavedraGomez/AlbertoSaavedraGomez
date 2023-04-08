@@ -115,21 +115,19 @@ h4 {
   padding: 3rem 2.5rem;
 }
 
-#nav ul, li ul, a ul {
+#nav ul {
   list-style: none;
   overflow: hidden;
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
 }
-
-li, a {
+#nav ul li {
   padding-right: 1rem;
   text-decoration: none !important;
   margin: auto;
 }
-
-a a {
+#nav ul li a {
   margin: auto;
 }
 
@@ -184,7 +182,7 @@ a {
 }
 
 @media (max-width: 800px) {
-  #nav, li, a {
+  #nav {
     position: fixed;
     bottom: 63px;
     width: 100%;
@@ -192,15 +190,15 @@ a {
     padding-top: 2rem;
     margin-left: auto;
   }
-  #nav .mycontainer, li .mycontainer, a .mycontainer {
+  #nav .mycontainer {
     width: 100%;
     padding: 0;
   }
-  #nav ul, li ul, a ul {
+  #nav ul {
     display: flex;
     overflow: auto !important;
   }
-  #nav ul li, li ul li, a ul li, #nav ul a, li ul a, a ul a {
+  #nav ul li {
     min-width: 0;
     min-height: 45px;
     display: flex;
@@ -208,7 +206,7 @@ a {
     font-size: 1rem;
     padding-right: 6rem !important;
   }
-  #nav ul li .category-menu-bottom, li ul li .category-menu-bottom, a ul li .category-menu-bottom, #nav ul a .category-menu-bottom, li ul a .category-menu-bottom, a ul a .category-menu-bottom {
+  #nav ul li .category-menu-bottom {
     height: 45px !important;
     line-height: 45px !important;
   }

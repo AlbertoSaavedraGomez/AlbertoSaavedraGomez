@@ -95,21 +95,18 @@ padding: 3rem 2.5rem;
     margin: 0!important;
     padding: 0!important;
     width: 100%;
-}
 
-li {
-    @extend #nav;
-    padding-right: 1rem;
-    text-decoration: none!important;
-    margin: auto;
-}
-
-a {
-    @extend li;
-    a {
+    li {
+        padding-right: 1rem;
+        text-decoration: none!important;
         margin: auto;
+
+        a {
+            margin: auto;
+        }
     }
 }
+
 
 .mycontainer {
     margin: 0 auto;
