@@ -4,6 +4,8 @@
 @import "./globals/variables";
 @import "./globals/reset" ;
 
+@import "./globals/mixin.scss";
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -72,44 +74,6 @@ h4 {
     font-size: .90rem;
 }
 
-.botonrojo1 {
-    padding: 1rem 1.5rem!important;
-    border-radius: 15rem!important;
-    font-size: 1.40rem!important;
-    background-color: $colorAzul!important;
-
-        &:hover {
-            background-color: $colorBlanco!important;
-            outline: 2px solid $colorAzul;
-            color: $colorAzul!important;
-        }
-}
-
-.botonrojo2 {
-    border-radius: 15rem!important;
-    padding: 0.5rem 1rem!important;
-    background-color: $colorAzul;
-    
-    &:hover {
-        background-color: $colorBlanco!important;
-        outline: 2px solid $colorAzul;
-        color: $colorAzul!important;
-    }
-}
-
-.botonrojo3 {
-    background-color: $colorAzul;
-    border-radius: 15rem!important;
-    padding: 1.5rem 2rem!important;
-    font-size: 2rem!important;
-    
-    &:hover {
-        background-color: $colorBlanco!important;
-        outline: 2px solid $colorAzul;
-        color: $colorAzul!important;
-    }
-}
-
 .botonesmenu {
     background-color: $colorAzul;
 	background-image: linear-gradient(43deg, $colorAzul, $colorMorado);
@@ -131,16 +95,19 @@ padding: 3rem 2.5rem;
     margin: 0!important;
     padding: 0!important;
     width: 100%;
+}
 
-    li {
-        padding-right: 1rem;
-        text-decoration: none!important;
-        background-color: $colorMorado;
+li {
+    @extend #nav;
+    padding-right: 1rem;
+    text-decoration: none!important;
+    margin: auto;
+}
+
+a {
+    @extend li;
+    a {
         margin: auto;
-
-        a {
-            margin: auto;
-        }
     }
 }
 

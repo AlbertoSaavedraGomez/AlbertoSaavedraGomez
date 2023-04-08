@@ -1,0 +1,27 @@
+@mixin botonrojo {
+    background-color: $colorAzul!important;
+    border-radius: 15rem!important;
+
+    &:hover {
+        background-color: $colorBlanco!important;
+        outline: 2px solid $colorAzul;
+        color: $colorAzul!important;
+    }
+}
+
+.botonrojo1 {
+    @include botonrojo;
+    padding: 1rem 1.5rem!important;
+    font-size: 1.40rem!important;
+}
+
+.botonrojo2 {
+    @include botonrojo;
+    padding: 0.5rem 1rem!important;
+}
+
+.botonrojo3 {
+    @include botonrojo;
+    padding: 1.5rem 2rem!important;
+    font-size: 2rem!important;
+}
