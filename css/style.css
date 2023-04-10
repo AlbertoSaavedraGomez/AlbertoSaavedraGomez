@@ -4,7 +4,6 @@
   padding: 1rem 1.5rem !important;
   font-size: 1.4rem !important;
 }
-
 .botonrojo1:hover {
   background-color: #fff !important;
   outline: 2px solid #2642ce;
@@ -16,7 +15,6 @@
   border-radius: 15rem !important;
   padding: 0.5rem 1rem !important;
 }
-
 .botonrojo2:hover {
   background-color: #fff !important;
   outline: 2px solid #2642ce;
@@ -29,7 +27,6 @@
   padding: 1.5rem 2rem !important;
   font-size: 2rem !important;
 }
-
 .botonrojo3:hover {
   background-color: #fff !important;
   outline: 2px solid #2642ce;
@@ -87,7 +84,6 @@ h4 {
   list-style-type: none;
   text-decoration: none;
 }
-
 .nav-link.active, .nav-link:hover {
   background-color: #fff !important;
   outline: 2px solid rgb(255, 255, 255);
@@ -126,13 +122,11 @@ h4 {
   padding: 0 !important;
   width: 100%;
 }
-
 #nav ul li {
   padding-right: 1rem;
   text-decoration: none !important;
   margin: auto;
 }
-
 #nav ul li a {
   margin: auto;
 }
@@ -159,8 +153,8 @@ a {
 }
 
 .menubox {
-  width: 18rem;
-  height: 29rem;
+  width: 18rem !important;
+  height: 29rem !important;
   background-color: rgb(255, 255, 255);
 }
 
@@ -208,6 +202,7 @@ a {
     min-width: 0;
     min-height: 45px;
     display: flex;
+    -webkit-box-align: center !important;
     align-items: center !important;
     font-size: 1rem;
     padding-right: 6rem !important;
@@ -277,6 +272,6 @@ a {
   .imageevents {
     height: 18rem !important;
   }
-} 
+}
 
 /*# sourceMappingURL=style.css.map */
